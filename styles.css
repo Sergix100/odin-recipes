@@ -1,0 +1,55 @@
+body{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5f5f5f;
+    background-image: url(./more-leaves.png);
+
+}
+
+.content{
+
+    background-color: rgba(127, 255, 212, 0.603);
+    width: 50%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+.title{
+
+    text-align: center;
+    color: #484848;
+    font-size: 4em;
+    background-color: rgba(127, 255, 212, 0.603);
+}
+
+.recipeimg{
+
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+li {
+
+    margin-top: 5px;
+
+}
+
+
+
+.content h2{
+
+    text-align: center;
+    color: #484848;
+    font-size: 2.5rem;
+
+}
+
+ol > li::marker {
+    font-weight: bold;
+  }
